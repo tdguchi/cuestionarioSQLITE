@@ -9,7 +9,7 @@ from datetime import datetime
 DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1336425837788008508/HJgOTpQrnc03nKuBzU52ZzR2HX1-a0Hrtau0OjjoyPyTTeR6i7evyl9Xt2xU8pE9mUyn"
 
 app = Flask(__name__)
-app.secret_key = 'your-secret-key-here'  # Necesario para flash messages
+app.secret_key = 'your-secre-key-here'  # Necesario para flash messages
 
 # Cargar preguntas desde un archivo JSON
 def load_questions():
